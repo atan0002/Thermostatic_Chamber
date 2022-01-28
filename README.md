@@ -20,8 +20,7 @@ controlled by PWM signal. To do that it was used algorithm of PID controller whi
 calculated a control signal interpreted as voltage. This control signal was
 converted to width of PWM signal. That let to apply phase voltage for calculated period of time.
 ## How it works?
-Link for presentation: 
-[![IMAGE](https://www.img.youtube.com/watch?v=v-I5uuCyCsk.jpg)](https://youtu.be/v-I5uuCyCsk)
+[Link for presentation](https://youtu.be/v-I5uuCyCsk)
 
 ## Conclusions
 In this project it was used heater with power 2000 W and chamber with dimensions 345mm x 240 mm. That facts caused
