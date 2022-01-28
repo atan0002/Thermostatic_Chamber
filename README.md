@@ -1,4 +1,4 @@
-# Thermostatic chamber controlled by PWM
+# Thermostatic chamber
 
 This is student project of thermostatic chamber. This system was desgined to keep reference temperature.To build this project 
 there were used elements like: chamber which keep temperature, SSR , temperature sensor, buttons, LCD and STM32F411RE.
