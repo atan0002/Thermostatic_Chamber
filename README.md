@@ -18,13 +18,13 @@ simulation in Matlab's tool Simulink.
 Next stage was testing hardware and software. As i said, heater was 
 controlled by PWM signal. To do that it was used algorithm of PID controller which
 calculated a control signal interpreted as voltage. This control signal was
-converted to width of PWM signal. That let to apply phase voltage for calculated period of time.
+converted to width of PWM signal. That let to apply mains voltage for calculated period of time.
 ## How it works?
 [Link for presentation](https://youtu.be/v-I5uuCyCsk)
 
 ## Conclusions
-In this project it was used heater with power 2000 W and chamber with dimensions 345mm x 240 mm. These facts caused
-that the PWM duty cycle had to last 1 second. Another thing was that the parameters of
+In this project it was used heater with power 2000 W and chamber with dimensions 345mm x 240 mm x 300 mm. These facts caused
+that the PWM period had to last 1 second. Another thing was that the parameters of
 PID controller from simulation had to be changed. That helped to better control the object. So the first
 conclusion is that the power of the heater should be 
 well chosen for volume of chamber. That can make easier controlling the object. Another thing is that to
