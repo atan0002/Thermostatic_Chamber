@@ -21,8 +21,8 @@ calculated a control signal interpreted as voltage. This control signal was
 converted to width of PWM signal. That let to apply phase voltage for calculated period of time.
 ## How it works?
 Link for presentation: 
-[![IMAGE_ALT](https://img.youtu.be/v-I5uuCyCsk.jpg)](https://youtu.be/v-I5uuCyCsk)
-![](https://youtu.be/v-I5uuCyCsk)
+[![IMAGE](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/v-I5uuCyCsk)
+
 ## Conclusions
 In this project it was used heater with power 2000 W and chamber with dimensions 345mm x 240 mm. That facts caused
 that the PWM duty cycle should have last 1 second. Another thing was that the parameters of
