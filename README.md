@@ -1,10 +1,10 @@
 # Thermostatic chamber controlled by PWM
 
 This is student project of thermostatic chamber. This system was desgined to keep reference temperature.To build this project 
-it were used elements like: chamber which keep temperature, SSR , temperature sensor, buttons, LCD and STM32F411RE.
+there were used elements like: chamber which keep temperature, SSR , temperature sensor, buttons, LCD and STM32F411RE.
 ![Photo of circuit](uklad.jpg "Photo of circuit")
 Temperature was controlled by PID controller. Heater was controlled by PWM
-signal. All things was programmed in STM32CubeIDE. GUI was done
+signal. All things were programmed in STM32CubeIDE. GUI was done
 in [TelemetryViewer](http://www.farrellf.com/TelemetryViewer/).
 Project was composed of two stages. 
 
@@ -15,7 +15,7 @@ Collected data let to start modeling and simulating in MATLAB. Object was recogn
 inertial element with a delay. This knowledge let use Matlab's cftool to find parameters. Next step was
 simulation in Matlab's tool Simulink. 
 ## Testing 
-Next stage was testing hardware and software. As i said heater was 
+Next stage was testing hardware and software. As i said, heater was 
 controlled by PWM signal. To do that it was used algorithm of PID controller which
 calculated a control signal interpreted as voltage. This control signal was
 converted to width of PWM signal. That let to apply phase voltage for calculated period of time.
@@ -23,9 +23,9 @@ converted to width of PWM signal. That let to apply phase voltage for calculated
 [Link for presentation](https://youtu.be/v-I5uuCyCsk)
 
 ## Conclusions
-In this project it was used heater with power 2000 W and chamber with dimensions 345mm x 240 mm. That facts caused
-that the PWM duty cycle should have last 1 second. Another thing was that the parameters of
-PID controller from simulation have to be changed. That 's becouse that helped to better control of the object. So the first
+In this project it was used heater with power 2000 W and chamber with dimensions 345mm x 240 mm. These facts caused
+that the PWM duty cycle had to last 1 second. Another thing was that the parameters of
+PID controller from simulation had to be changed. That helped to better control the object. So the first
 conclusion is that the power of the heater should be 
-well chosen for volume of chamber. I meant, that can make easier controlling the object. Another thing is that to
+well chosen for volume of chamber. That can make easier controlling the object. Another thing is that to
 improve the dynamics of the object is good to use some fan.
