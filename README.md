@@ -15,7 +15,7 @@ Collected data let to start modeling and simulating in MATLAB. Object was recogn
 inertial element with a delay. This knowledge let use Matlab's cftool to find parameters. Next step was
 simulation in Matlab's tool Simulink. 
 ## Testing 
-Next stage was testing all hardware and software. As i said was 
+Next stage was testing hardware and software. As i said heater was 
 controlled by PWM signal. To do that it was used algorithm of PID controller which
 calculated a control signal interpreted as voltage. This control signal was
 converted to width of PWM signal. That let to apply phase voltage for calculated period of time.
